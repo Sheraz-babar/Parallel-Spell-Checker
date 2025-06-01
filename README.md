@@ -4,10 +4,8 @@ This is a comprehensive Python application that performs spell checking on text 
 Let me break down the key components and functionality:
 
 ## Main Features
-### Parallel Processing: 
-Uses multiple threads to speed up spell checking of large documents
-### Interactive GUI: 
-Built with Tkinter for a user-friendly experience
+### Parallel Processing: Uses multiple threads to speed up spell checking of large documents
+### Interactive GUI: Built with Tkinter for a user-friendly experience
 ### Advanced Text Processing: 
 Handles word boundaries, punctuation, and formatting
 ### Correction Management: 
@@ -18,36 +16,44 @@ Provides detailed performance metrics and accuracy statistics
 Save original and corrected documents with highlighted changes
 
 ## Key Components
-1. SpellCheckerApp Class
+### SpellCheckerApp Class
 The main application class that handles all functionality:
-•	Initialization: Sets up the GUI, spell checker, and data structures
-•	Thread Management: Uses ThreadPoolExecutor for parallel processing
-•	Event Handling: Manages user interactions and background tasks
-2. GUI Components
+### Initialization: 
+Sets up the GUI, spell checker, and data structures
+### Thread Management: 
+Uses ThreadPoolExecutor for parallel processing
+### Event Handling: 
+Manages user interactions and background tasks
+
+### GUI Components
 The interface includes:
 •	Text Display: Shows the document content with misspelled words highlighted
 •	Results Panel: Lists all misspelled words with frequency counts
 •	Suggestions Panel: Provides spelling suggestions for selected words
 •	Control Panel: File operations, processing controls, and thread configuration
 •	Statistics Panel: Shows processing metrics and accuracy statistics
-3. Core Functionality
+
+### Core Functionality
 •	File Handling: Opens, processes, and saves text documents
 •	Spell Checking: Uses the spellchecker library with custom processing
 •	Text Highlighting: Visually identifies misspelled words in the document
 •	Correction System: Allows applying corrections and ignoring words
 •	Progress Tracking: Shows real-time progress during processing
-4. Parallel Processing Implementation
+
+### Parallel Processing Implementation
 The application divides text into chunks and processes them in parallel:
 1.	Divides the input file into equal chunks based on thread count
 2.	Processes each chunk independently to find misspelled words
 3.	Combines results from all threads
 4.	Updates the UI with aggregated results
-5. Special Features
+   
+### Special Features
 •	Word Frequency Counting: Shows how often each misspelled word appears
 •	Execution Time Tracking: Measures both processing time and total execution time
 •	FILE Export: Creates formatted TEXT documents with highlighted changes
 •	Custom Dictionary: Allows ignoring words by adding them to the dictionary
-How It Works
+
+## How It Works
 1.	User opens a text file through the GUI
 2.	Configures the number of threads to use
 3.	Starts the spell checking process
@@ -68,5 +74,6 @@ Technical Highlights
 •	Handles cancellation of ongoing operations
 •	Provides comprehensive error handling
 •	Includes performance optimizations like word boundary matching
+
 This application is designed to handle large documents efficiently while providing a rich set of features for spell checking and correction.
 
