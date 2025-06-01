@@ -4,8 +4,10 @@ This is a comprehensive Python application that performs spell checking on text 
 Let me break down the key components and functionality:
 
 ## Main Features
-### Parallel Processing: Uses multiple threads to speed up spell checking of large documents
-### Interactive GUI: Built with Tkinter for a user-friendly experience
+### Parallel Processing: 
+Uses multiple threads to speed up spell checking of large documents
+### Interactive GUI: 
+Built with Tkinter for a user-friendly experience
 ### Advanced Text Processing: 
 Handles word boundaries, punctuation, and formatting
 ### Correction Management: 
@@ -68,7 +70,8 @@ o	Apply corrections
 o	Ignore words (add to dictionary)
 o	Save original or corrected versions
 6.	Statistics are updated throughout the process
-Technical Highlights
+   
+# Technical Highlights
 •	Uses mmap for efficient large file reading
 •	Implements proper thread synchronization with queues
 •	Handles cancellation of ongoing operations
