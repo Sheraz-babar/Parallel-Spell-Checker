@@ -1,14 +1,23 @@
 # Advanced Parallel Spell Checker - Documentation
 
-This is a comprehensive Python application that performs spell checking on text documents using parallel processing for improved performance. Let me break down the key components and functionality:
-Main Features
-1.	Parallel Processing: Uses multiple threads to speed up spell checking of large documents
-2.	Interactive GUI: Built with Tkinter for a user-friendly experience
-3.	Advanced Text Processing: Handles word boundaries, punctuation, and formatting
-4.	Correction Management: Tracks and applies corrections with undo capability
-5.	Statistics & Reporting: Provides detailed performance metrics and accuracy statistics
-6.	Export Options: Save original and corrected documents with highlighted changes
-Key Components
+This is a comprehensive Python application that performs spell checking on text documents using parallel processing for improved performance. 
+Let me break down the key components and functionality:
+
+## Main Features
+### Parallel Processing: 
+Uses multiple threads to speed up spell checking of large documents
+### Interactive GUI: 
+Built with Tkinter for a user-friendly experience
+### Advanced Text Processing: 
+Handles word boundaries, punctuation, and formatting
+### Correction Management: 
+Tracks and applies corrections with undo capability
+### Statistics & Reporting: 
+Provides detailed performance metrics and accuracy statistics
+### Export Options: 
+Save original and corrected documents with highlighted changes
+
+## Key Components
 1. SpellCheckerApp Class
 The main application class that handles all functionality:
 •	Initialization: Sets up the GUI, spell checker, and data structures
