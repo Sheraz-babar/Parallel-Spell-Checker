@@ -61,11 +61,11 @@ The application divides text into chunks and processes them in parallel:
 3.	Starts the spell checking process
 4.	The application divides the text into chunks, processes chunks in parallel, aggregates results and highlights misspelled words
 5.	User can:
-o	View suggestions for misspelled words
-o	Apply corrections
-o	Ignore words (add to dictionary)
-o	Save original or corrected versions
-6.	Statistics are updated throughout the process
+   View suggestions for misspelled words
+   Apply corrections
+   Ignore words (add to dictionary)
+   Save original or corrected versions
+   Statistics are updated throughout the process
    
 # Technical Highlights
 1. Uses mmap for efficient large file reading
